@@ -25,6 +25,10 @@ When needing to visualize audio (spectrum bars, waveforms, bass-reactive effects
 
 When needing to use sound effects, load the [./rules/sound-effects.md](./rules/sound-effects.md) file for more information.
 
+## Icons and visual elements
+
+When needing to display icons, decorative elements, or visual indicators in videos, load the [./rules/icons.md](./rules/icons.md) file for more information. Emojis are FORBIDDEN - always use SVG icons with gradient backgrounds.
+
 ## How to use
 
 Read individual rule files for detailed explanations and code examples:
@@ -59,3 +63,4 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/parameters.md](rules/parameters.md) - Make a video parametrizable by adding a Zod schema
 - [rules/maps.md](rules/maps.md) - Add a map using Mapbox and animate it
 - [rules/voiceover.md](rules/voiceover.md) - Adding AI-generated voiceover to Remotion compositions using ElevenLabs TTS
+- [rules/icons.md](rules/icons.md) - Product-grade SVG icon patterns with gradient backgrounds (emojis are forbidden)
