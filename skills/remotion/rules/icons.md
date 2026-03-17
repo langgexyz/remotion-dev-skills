@@ -174,6 +174,37 @@ const IconStar: React.FC<{ size?: number }> = ({ size }) => (
     <path d="M12 2 L14 9 L21 9 L15 14 L17 21 L12 17 L7 21 L9 14 L3 9 L10 9 Z" fill="white" stroke="none" />
   </IconWrapper>
 );
+
+// Shield / Security
+const IconShield: React.FC<{ size?: number }> = ({ size }) => (
+  <IconWrapper gradient="linear-gradient(135deg, #6366f1, #4f46e5)" size={size}>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+  </IconWrapper>
+);
+
+// Settings / Gear
+const IconGear: React.FC<{ size?: number }> = ({ size }) => (
+  <IconWrapper gradient="linear-gradient(135deg, #64748b, #475569)" size={size}>
+    <circle cx="12" cy="12" r="3" />
+    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+  </IconWrapper>
+);
+
+// User / Profile
+const IconUser: React.FC<{ size?: number }> = ({ size }) => (
+  <IconWrapper gradient="linear-gradient(135deg, #f472b6, #ec4899)" size={size}>
+    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+    <circle cx="12" cy="7" r="4" />
+  </IconWrapper>
+);
+
+// Code / Terminal
+const IconCode: React.FC<{ size?: number }> = ({ size }) => (
+  <IconWrapper gradient="linear-gradient(135deg, #22d3ee, #06b6d4)" size={size}>
+    <polyline points="16,18 22,12 16,6" />
+    <polyline points="8,6 2,12 8,18" />
+  </IconWrapper>
+);
 ```
 
 ## Gradient Color Palette
@@ -192,6 +223,8 @@ Use semantically meaningful gradient colors:
 | Nature | `#14b8a6 → #0d9488` | Audio, music, media |
 | World | `#06b6d4 → #0891b2` | Maps, globe, network |
 | Premium | `#a855f7 → #9333ea` | 3D, advanced, pro |
+| Neutral | `#64748b → #475569` | Settings, gear, utility |
+| People | `#f472b6 → #ec4899` | User, profile, social |
 
 ## Size Guidelines
 
